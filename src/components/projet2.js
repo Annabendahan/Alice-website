@@ -4,6 +4,7 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import '../components/projets.css'
+import pic1 from '../images/picNina.png';
 
 class  Projet2 extends Component {
 state = {
@@ -21,13 +22,9 @@ render() {
 
   return(
 
-    <div style={{
-      background: `transparent`,
-      marginBottom: `1.45rem`,
-      position: `relative`,
-      zIndex: `15`,
-      transition: `all 3s ease-out`
-    }} > PROJET 2 </div>
+    <div className="picture2" >
+    <img  src={pic1} className="pic2" alt="fireSpot" />
+  </div>
 
 
 

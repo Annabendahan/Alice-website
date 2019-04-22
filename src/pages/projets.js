@@ -15,24 +15,10 @@ state = {
   p1: true,
   p2: true,
   p3: true,
-  p4: true
-}
-
-componentDidMount() {
-  window.onscroll = () => this._handleScroll()
+  p4: false
 }
 
 
-// _handleScroll() {
-
-//   let previousScrolling = this.state.scrolling
-//   let  scrolling = document.documentElement.scrollTop
-//   console.log('scrolling:', document.documentElement.scrollTop);
-//     this.setState({ scrolled: true});
-//     this.handleChange()
-
-
-// }
 
 
 handleProjet1 = () =>{
@@ -47,7 +33,7 @@ console.log(this.state.p2)
 }
 
 handleProjet3 = () =>{
-this.setState({ p3: false});
+this.setState({ p3: false,  p3: true, p1: true, p2: true});
 console.log(this.state.p3)
 }
 
@@ -63,12 +49,6 @@ console.log(this.state.p3)
 
 
 
-
-
-console.log(this.state.scrolled)
-console.log(this.state.show)
-
-
     return(
 <div className="background">
         <Layout >
@@ -79,62 +59,77 @@ console.log(this.state.show)
     <div className="projets">
       <div className="projet p1">
         <div style= {{
-          zIndex: `20`,
+          zIndex:  `20`,
           position: `relative`,
-          background: `white`,
-          transform: this.state.p1? `translateY(0px)` : `translateY(-50vh)`,
+          transform: this.state.p1? `translateY(0px)` : `translateY(-140vh)`,
           transition: ` all 2s ease-out`
         }}>
           <Projet1 />
-            <button className="next" onClick={this.handleProjet1}>
-              NEXT
-            </button>
+           <h3 className="title"> Heure de pointe </h3>
+
         </div>
+        <div style= {{
+          zIndex: `21`,
+         visibility: this.state.p1? `visible`: `hidden`,
+          position: `relative`
+        }} className="next" onClick={this.handleProjet1}>
+              NEXT1
+            </div>
       </div>
 
       <div className="projet p2">
         <div style= {{
           zIndex: `15`,
           position: `relative`,
-          background: `white`,
-          transform: this.state.p2? `translateY(0px)` : `translateY(-50vh)`,
+          transform: this.state.p2? `translateY(0px)` : `translateY(-140vh)`,
           transition: `all 2s ease-out`
         }}>
           <Projet2 />
-            <button className="next" onClick={this.handleProjet2}>
-              NEXT
-            </button>
+          <h3 className="title2"> Nina</h3>
         </div>
+        <div style= {{
+          zIndex: `16`,
+          visibility: this.state.p2? `visible`: `hidden`,
+          position: `relative`
+        }} className="next" onClick={this.handleProjet2}>
+              NEXT2
+            </div>
       </div>
 
       <div className="projet p3">
         <div style= {{
           zIndex: `10`,
           position: `relative`,
-          background: `white`,
-          transform: this.state.p3? `translateY(0px)` : `translateY(-50vh)`,
+          transform: this.state.p3? `translateY(0px)` : `translateY(-140vh)`,
           transition: `all 2s ease-out`
         }}>
           <Projet3 />
-            <button className="next" onClick={this.handleProjet3}>
-              NEXT
-            </button>
+          <h3 className="title3"> Banlieue</h3>
         </div>
+        <div style= {{
+          zIndex: `10`,
+          visibility: this.state.p3? `visible`: `hidden`,
+          position: `relative`
+        }} className="next" onClick={this.handleProjet3}>
+              NEXT3
+            </div>
       </div>
 
 
-      <div className="projet p3">
+      <div className="projet p4">
         <div style= {{
           zIndex: `8`,
           position: `relative`,
           background: `white`,
-          transition: `all 2s ease-out`
+          transition: `all 2s ease-out`,
+
         }}>
           See again
             <button className="next" onClick={this.handleReset}>
               NEXT
             </button>
         </div>
+
       </div>
 
 
@@ -144,7 +139,7 @@ console.log(this.state.show)
 
 
 
-    <Link to="/">Go back to the homepage</Link>
+
 
 
   </Layout>
