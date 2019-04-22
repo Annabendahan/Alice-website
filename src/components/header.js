@@ -1,22 +1,21 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import './header.css'
 
-const Header = ({ siteTitle }) => (
+const Header = ({ siteTitle, siteDescription }) => (
   <header
     style={{
-      background: `rebeccapurple`,
+      background: `transparent`,
       marginBottom: `1.45rem`,
+      position: `relative`,
+      zIndex: `10`
     }}
   >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
+    <div className="tabs-container"
+
     >
-      <h1 style={{ margin: 0 }}>
+      <div> <h1 style={{ margin: 0 }}>
         <Link
           to="/"
           style={{
@@ -25,8 +24,28 @@ const Header = ({ siteTitle }) => (
           }}
         >
           {siteTitle}
-        </Link>
-      </h1>
+          {siteDescription}
+        </Link>  </h1> </div>
+        <div className='tabs'>
+          <Link
+          to="/projets/"
+          style={{
+            padding: `0px 20px`,
+            color: `white`,
+            textDecoration: `none`,
+          }}
+        > Projets </Link>
+        <Link
+          to="/projets/"
+          style={{
+            padding: `0px 20px`,
+            color: `white`,
+            textDecoration: `none`,
+          }}
+        > About </Link>
+
+        </div>
+
     </div>
   </header>
 )

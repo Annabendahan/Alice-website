@@ -1,0 +1,39 @@
+
+
+
+
+.toShow{
+
+  height: 50vh;
+  margin: auto;
+  width: 50%;
+
+}
+
+
+.background{
+  background:#0B364F;
+  height: 101vh;
+ overflow:hidden;
+
+}
+
+.background html, body {
+
+  font-family: Roboto;
+  overflow:hidden;
+
+}
+
+
+.projets{
+  position: relative;
+  margin: auto;
+  width: 20%;
+}
+
+
+.projet{
+  position: absolute;
+  top: 300px;
+}
