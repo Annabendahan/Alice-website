@@ -7,6 +7,7 @@ import '../components/projets.css'
 import Projet1 from  '../components/projet1'
 import Projet2 from  '../components/projet2'
 import Projet3 from  '../components/projet3'
+import Projet4 from  '../components/projet4'
 
 class  Projets extends Component {
 state = {
@@ -15,7 +16,12 @@ state = {
   p1: true,
   p2: true,
   p3: true,
-  p4: false
+  p4: true,
+  mount: false
+}
+
+componentDidMount(){
+  this.setState({mount: true})
 }
 
 
@@ -33,12 +39,12 @@ console.log(this.state.p2)
 }
 
 handleProjet3 = () =>{
-this.setState({ p3: false,  p3: true, p1: true, p2: true});
+this.setState({ p3: false});
 console.log(this.state.p3)
 }
 
-handleReset = () =>{
-this.setState({ p3: true, p1: true, p2: true});
+handleProjet4 = () =>{
+this.setState({ p4: false, p3: true, p1: true, p2: true, p4: true});
 console.log(this.state.p3)
 }
 
@@ -56,7 +62,11 @@ console.log(this.state.p3)
 
     <SEO title="Page two" />
 
+
+
+
     <div className="projets">
+
       <div className="projet p1">
         <div style= {{
           zIndex:  `20`,
@@ -104,7 +114,7 @@ console.log(this.state.p3)
           transition: `all 2s ease-out`
         }}>
           <Projet3 />
-          <h3 className="title3"> Banlieue</h3>
+          <h3 className="title3"> Banlieue x projet</h3>
         </div>
         <div style= {{
           zIndex: `10`,
@@ -118,25 +128,35 @@ console.log(this.state.p3)
 
       <div className="projet p4">
         <div style= {{
-          zIndex: `8`,
+          zIndex: `7`,
           position: `relative`,
-          background: `white`,
-          transition: `all 2s ease-out`,
-
+          transform: this.state.p4? `translateY(0px)` : `translateY(-140vh)`,
+          transition: `all 2s ease-out`
         }}>
-          See again
-            <button className="next" onClick={this.handleReset}>
-              NEXT
-            </button>
+          <Projet4 />
+          <h3 className="title3"> Knicks Queens </h3>
         </div>
-
+        <div style= {{
+          zIndex: `7`,
+          visibility: this.state.p4? `visible`: `hidden`,
+          position: `relative`
+        }} className="next" onClick={this.handleProjet4}>
+              NEXT3
+            </div>
       </div>
-
-
 
 
     </div>
 
+  <div style={{
+      background: `yellow`,
+      position: `relative`,
+      zIndex: `50`,
+      width: `100%`,
+      height: `110vh`,
+            transform: this.state.mount? `translateY(-500vh)` : `translateY(0vh)`,
+    transition: ` all 6s ease-out`}}> Projets
+     </div>
 
 
 

@@ -14,14 +14,14 @@
 .background{
   background:#0B364F;
   height: 101vh;
- overflow:hidden;
+
 
 }
 
 .background html, body {
 
   font-family: Roboto;
-  overflow:hidden;
+
 
 }
 
@@ -59,6 +59,7 @@
   margin-left: -210px;
   color: white;
   background:#0B364F;
+  font-weight: 600;
 }
 
 
@@ -70,6 +71,7 @@
   margin-left: -145px;
   color: white;
   background:#0B364F;
+  font-weight: 600;
 }
 
 .title3{
@@ -80,6 +82,7 @@
   margin-left: -170px;
   color: white;
   background:#0B364F;
+  font-weight: 600;
 }
 
 img{
@@ -88,7 +91,7 @@ img{
 
 
 .picture1{
-box-shadow: 0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.07);
+
 background: transparent;
       position: relative;
       z-index: 10;
@@ -97,7 +100,7 @@ background: transparent;
 
 .projets:hover .picture2{
 transform: translate(20px, 40px);
-  transition: all 1s ease-out
+  transition: all .5s ease-out
 
 }
 .picture2{
@@ -112,7 +115,7 @@ background: transparent;
 .projets:hover .picture3{
 
 transform: translate(-20px, -20px);
-  transition: all 1s ease-out
+  transition: all .5s ease-out
 
 }
 
@@ -123,4 +126,23 @@ background: transparent;
       z-index: 10;
       transition: all 3s ease-out;
       box-shadow: 0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.07);
+}
+
+.picShow{
+  height: 500px;
+}
+.picShow2{
+  height: 500px;
+  margin-top: -200px;
+}
+
+.desc{
+  margin-top: 100px;
+  width: 90%;
+text-align: justify;}
+
+
+.picDisplay{
+  width: 40%;
+  margin: 40px;
 }

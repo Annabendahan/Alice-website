@@ -17,10 +17,16 @@ render() {
 
 
   return(
- <div className="picture1">
+
+<Link to= "/heuredepointe/">
+
+ <div className="picture1" >
     <img  src={pic1} className="pic1" alt="fireSpot" />
 
    </div>
+
+
+   </Link>
     )
 }
 

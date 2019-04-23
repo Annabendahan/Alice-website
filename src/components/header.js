@@ -25,7 +25,7 @@ const Header = ({ siteTitle, siteDescription }) => (
           }}
         >
           {siteTitle}
-          {siteDescription}
+          <h2 className="modélisme"> Modélisme </h2>
         </Link>  </h1> </div>
         <div className='tabs'>
           <Link
@@ -33,6 +33,8 @@ const Header = ({ siteTitle, siteDescription }) => (
           style={{
             padding: `0px 20px`,
             color: `white`,
+            fontWeight: `300`,
+            fontSize: `.9rem`,
             textDecoration: `none`,
           }}
         > Projets </Link>
@@ -40,7 +42,9 @@ const Header = ({ siteTitle, siteDescription }) => (
           to="/projets/"
           style={{
             padding: `0px 20px`,
+            fontWeight: `300`,
             color: `white`,
+            fontSize: `.9rem`,
             textDecoration: `none`,
           }}
         > About </Link>
