@@ -1,6 +1,6 @@
 .tabs-container{
 
-padding: 0.45rem 1.0875rem;
+padding: 0rem 1.0875rem;
 display: flex;
 width: 100%;
 justify-content: space-between;
@@ -8,9 +8,69 @@ align-items: center;
 
 }
 
+.svg1{
+  top: 1px;
+  left: 75px;
+  position: absolute;
+  visibility: hidden;
+
+}
+
+.svg2{
+  top: 1px;
+  left: 215px;
+  position: absolute;
+  visibility: hidden;
+
+}
+
+
+.svg3{
+  top: 1px;
+  left: 315px;
+  position: absolute;
+  visibility: hidden;
+
+}
+
+
+.tabs{
+  position: relative;
+}
 
 
 .modélisme{
   font-size: .9rem;
   font-weight: 300;
 }
+
+.proj:hover ~ .svg1{
+    visibility: visible;
+    stroke-dasharray: 55;
+  stroke-dashoffset: 55;
+  animation: dash 1s linear forwards;
+  animation-fill-mode: forwards;
+}
+
+.md:hover ~ .svg2{
+    visibility: visible;
+    stroke-dasharray: 55;
+  stroke-dashoffset: 55;
+  animation: dash 1s linear forwards;
+  animation-fill-mode: forwards;
+}
+
+.ab:hover ~ .svg3{
+    visibility: visible;
+     stroke-dasharray: 55;
+  stroke-dashoffset: 55;
+  animation: dash 1s linear forwards;
+  animation-fill-mode: forwards;
+}
+
+@keyframes dash{
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+

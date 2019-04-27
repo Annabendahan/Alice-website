@@ -4,26 +4,67 @@
 }
 
 
-video{
-  width: 100%;
-  height: 80vh;
-  margin: auto;
 
+.background-i{
+  background: url(../images/picBack3.png);
+  width: 100%;
+}
+
+video{
+  width: 68%;
+  height: 85vh;
+  margin-left: 33%;
+  margin-top: 0px;
+  margin-bottom: 30px;
   z-index:5;
   position: relative
 }
 
 
-.voir{
+.titles{
   position: absolute;
-top: 70%;
-left: 10%;
+top: 20%;
+left: 3%;
+width: 30%;
 
 z-index: 10;
+color: #263654;
 }
 
 
 .voir a{
-  color: white;
+  color: #263654;
 text-decoration: none;
 }
+
+
+.titles h2{
+   -webkit-text-stroke: .05rem white;
+   color: transparent;
+}
+
+
+.titles h1{
+
+   color: #263654;
+   font-weight: 900;
+}
+
+
+.voir{
+  margin-left: 15%;
+  position: relative;
+  margin-top: 70px;
+  font-weight: 500;
+}
+
+.voir:hover svg{
+  left: 180px;
+}
+
+.voir svg{
+  position: absolute;
+  top: -20px;
+}
+
+

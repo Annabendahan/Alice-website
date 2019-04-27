@@ -57,6 +57,7 @@ console.log(this.state.p3)
 
     return(
 <div className="background">
+
         <Layout >
 
 
@@ -75,7 +76,8 @@ console.log(this.state.p3)
           transition: ` all 2s ease-out`
         }}>
           <Projet1 />
-           <h3 className="title"> Heure de pointe </h3>
+           <h3 className="title"> Heures de pointe </h3>
+           <h4 className="subtitle"> Designer & Pattern Maker </h4>
 
         </div>
         <div style= {{
@@ -83,7 +85,10 @@ console.log(this.state.p3)
          visibility: this.state.p1? `visible`: `hidden`,
           position: `relative`
         }} className="next" onClick={this.handleProjet1}>
-              NEXT1
+              <p className='transparent'>
+
+              </p>
+
             </div>
       </div>
 
@@ -95,14 +100,18 @@ console.log(this.state.p3)
           transition: `all 2s ease-out`
         }}>
           <Projet2 />
-          <h3 className="title2"> Nina</h3>
+          <h3 className="title2"> Nina Collection</h3>
+          <h4 className="subtitle"> Designer & Pattern Maker </h4>
         </div>
         <div style= {{
           zIndex: `16`,
           visibility: this.state.p2? `visible`: `hidden`,
           position: `relative`
         }} className="next" onClick={this.handleProjet2}>
-              NEXT2
+             <p className='transparent'>
+
+              </p>
+
             </div>
       </div>
 
@@ -115,13 +124,17 @@ console.log(this.state.p3)
         }}>
           <Projet3 />
           <h3 className="title3"> Banlieue x projet</h3>
+          <h4 className="subtitle"> Designer & Pattern Maker </h4>
         </div>
         <div style= {{
           zIndex: `10`,
           visibility: this.state.p3? `visible`: `hidden`,
           position: `relative`
         }} className="next" onClick={this.handleProjet3}>
-              NEXT3
+              <p className='transparent'>
+
+              </p>
+
             </div>
       </div>
 
@@ -134,14 +147,20 @@ console.log(this.state.p3)
           transition: `all 2s ease-out`
         }}>
           <Projet4 />
-          <h3 className="title3"> Knicks Queens </h3>
+          <h3 className="title4"> Knicks Queens </h3>
+          <h4 className="subtitle"> Designer & Pattern Maker </h4>
         </div>
         <div style= {{
           zIndex: `7`,
           visibility: this.state.p4? `visible`: `hidden`,
           position: `relative`
         }} className="next" onClick={this.handleProjet4}>
-              NEXT3
+              <svg width="71" height="70" viewBox="0 0 71 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="71" height="70" fill="none"/>
+<circle cx="36" cy="35" r="18" stroke="#33405D" stroke-width="2"/>
+<path d="M42.3536 35.3536C42.5488 35.1583 42.5488 34.8417 42.3536 34.6464L39.1716 31.4645C38.9763 31.2692 38.6597 31.2692 38.4645 31.4645C38.2692 31.6597 38.2692 31.9763 38.4645 32.1716L41.2929 35L38.4645 37.8284C38.2692 38.0237 38.2692 38.3403 38.4645 38.5355C38.6597 38.7308 38.9763 38.7308 39.1716 38.5355L42.3536 35.3536ZM29 35.5H42V34.5H29V35.5Z" fill="#33405D"/>
+</svg>
+
             </div>
       </div>
 
@@ -149,20 +168,32 @@ console.log(this.state.p3)
     </div>
 
   <div style={{
-      background: `yellow`,
+      background: `#263654`,
       position: `relative`,
       zIndex: `50`,
       width: `100%`,
-      height: `110vh`,
+      height: `120vh`,
+
             transform: this.state.mount? `translateY(-500vh)` : `translateY(0vh)`,
-    transition: ` all 6s ease-out`}}> Projets
+    transition: ` all 6s ease-out`}}>
      </div>
+
+
+ <div style={{
+      background:`#FFFBC6`,
+      width: `100%`,
+      height: `400px`,
+      transform: this.state.mount? `translateY(-87vh)` : `translateY(-10vh)`,
+      transition: ` all 2s ease-out`
+    }}></div>
+
 
 
 
 
 
   </Layout>
+
     </div>
 
       )

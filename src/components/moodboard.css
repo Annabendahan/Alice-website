@@ -1,0 +1,18 @@
+.picS{
+  width: 33.3%;
+  float: left;
+}
+
+
+.moodboard{
+  margin:auto;
+  width: 85%;
+  margin-top: -300px;
+  position: relative;
+  z-index: 10;
+}
+
+
+.background-m{
+  background: url(../images/picBack4.png)
+}

@@ -6,17 +6,28 @@
 
   height: 50vh;
   margin: auto;
-  width: 50%;
+  width: 60%;
 
 }
 
 
 .background{
-  background:#0B364F;
-  height: 101vh;
+  background:white;
+}
 
+
+.background-p{
+  background:url(../images/picBack1.png);
+  background-size: cover;
+  overflow: hidden;
+  height: 100vh;
 
 }
+
+.background-y{
+background:yellow;
+}
+
 
 .background html, body {
 
@@ -29,14 +40,15 @@
 .projets{
   position: relative;
 
-  margin: auto;
+  margin-left: 38%;
   width: 500px;
-  margin-top: 60px;
+  margin-top: 0px;
+
 }
 
 .next{
   width: 80px;
-  color: white;
+  color: #33405D;
    margin: 50px;
 
 }
@@ -53,38 +65,58 @@
 
 .title{
   position: absolute;
-  padding: 20px 50px;
+  padding: 20px 0px;
   transform: rotate(-90deg);
-  margin-top: -400px;
-  margin-left: -210px;
-  color: white;
-  background:#0B364F;
+  top: 80px;
+  left: -180px;
+  color: #33405D;
+  background:white;
   font-weight: 600;
 }
 
 
 .title2{
   position: absolute;
-  padding: 20px 50px;
+  padding: 20px 10px;
   transform: rotate(-90deg);
-  margin-top: -400px;
-  margin-left: -145px;
-  color: white;
-  background:#0B364F;
+ top: 80px;
+   left: -170px;
+  color: #33405D;
+  background:white;
   font-weight: 600;
 }
 
 .title3{
   position: absolute;
-  padding: 20px 50px;
+  padding: 20px 0px;
   transform: rotate(-90deg);
-  margin-top: -400px;
-  margin-left: -170px;
-  color: white;
-  background:#0B364F;
+  top: 80px;
+   left: -180px;
+  color: #33405D;
+  background:white;
+  font-weight: 600;
+}
+.title4{
+  position: absolute;
+  padding: 20px 0px;
+  transform: rotate(-90deg);
+  top: 80px;
+   left: -170px;
+  color:#33405D;
+  background:white;
   font-weight: 600;
 }
 
+
+.subtitle{
+  position: absolute;
+  transform: rotate(-90deg);
+  top: 80px;
+  left: -150px;
+  color: #33405D;
+  background:wuite;
+  font-weight: 300;
+}
 img{
   margin-bottom: 0px;
 }
@@ -94,12 +126,13 @@ img{
 
 background: transparent;
       position: relative;
+
       z-index: 10;
       transition: all 3s ease-out
 }
 
 .projets:hover .picture2{
-transform: translate(20px, 40px);
+transform: translate(0px, 0px);
   transition: all .5s ease-out
 
 }
@@ -107,14 +140,15 @@ transform: translate(20px, 40px);
 
 background: transparent;
       position: relative;
+      transform: translate(-20px, -20px);
       z-index: 10;
       transition: all 3s ease-out;
-      box-shadow: 0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.07);
+
 }
 
 .projets:hover .picture3{
 
-transform: translate(-20px, -20px);
+transform: translate(0px, 0px);
   transition: all .5s ease-out
 
 }
@@ -123,14 +157,13 @@ transform: translate(-20px, -20px);
 
 background: transparent;
       position: relative;
+      transform: translate(20px, 20px);
       z-index: 10;
       transition: all 3s ease-out;
-      box-shadow: 0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.07);
+
 }
 
-.picShow{
-  height: 500px;
-}
+
 .picShow2{
   height: 500px;
   margin-top: -200px;
@@ -138,11 +171,83 @@ background: transparent;
 
 .desc{
   margin-top: 100px;
-  width: 90%;
-text-align: justify;}
+  width: 55%;
+text-align: justify;
+color: #4B4B4B;}
 
 
 .picDisplay{
   width: 40%;
   margin: 40px;
 }
+
+.picDisplayV{
+  width: 80%;
+  margin:auto;
+  margin: 40px;
+}
+
+.voirP{
+
+  padding: 0px 10px;
+  width: 180px;
+  position: absolute;
+  top: 280px;
+  left: 80px;
+  color: #33405D;
+  font-size: .8rem;
+  font-weight: 300;
+  opacity: 0;
+  z-index: 50;
+}
+
+.projets:hover .voirP{
+  opacity: 1;
+  transition: all 1s ease-out;
+}
+
+.voirP:hover > .arrow svg{
+  transform: rotate(180deg);
+  transition: all 2s ease-out;
+
+}
+
+
+.next:hover{
+  cursor: pointer;
+
+}
+
+.PTitle{
+
+  font-family: Poppins;
+  font-weight: 700;
+}
+
+.PDesc{
+
+  font-family: Poppins;
+  font-weight: 500;
+}
+
+.arrow{
+  margin-left: 80px;
+}
+
+
+.nextP{
+  color:#33405D ;
+  margin:auto;
+  width: 200px;
+}
+
+.nextP a{
+text-decoration: none;
+ color:#33405D ;}
+
+
+ .transparent{
+  background: transparent;
+  width: 50px;
+  height: 50px;
+ }

@@ -33,7 +33,7 @@ module.exports = {
     width: 800,
     height: 'auto',
     preload: 'auto',
-    muted: true,
+    muted: false,
     autoplay: true
   }
 }
