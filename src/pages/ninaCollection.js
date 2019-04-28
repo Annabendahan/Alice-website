@@ -11,6 +11,7 @@ import pic4 from '../images/metro (18 sur 7).jpg';
 import pic5 from '../images/metro (20 sur 7).jpg';
 import pic6 from '../images/picHDP2.png';
 import pic10 from '../images/nextppng.png';
+import { Parallax } from 'react-scroll-parallax';
 
 
 class  NinaCollection extends Component {
@@ -27,47 +28,53 @@ render() {
 
 
   return(
-<div className="background">
+<div className="background-pr">
     <Layout>
-      <div className="projets">
-        <div className="projet">
 
-            <div className="picture1" >
+
+    <div style={{
+      background:`#FFFBC6`,
+      marginTop: `-20vh`,
+
+      height: `110vh`,
+      transform: this.state.mount? `translateX(50%)` : `translateX(100%)`,
+      transition: ` all 2s ease-out`
+    }}></div>
+
             <div style={{
-            transform: this.state.mount? `translate(320px, 50px)` : `translateY(0vh)`,
+
             transition: ` all 2s ease-out`,
-            width: this.state.mount? `450px`: `300px`,
-            height: `200px`,
+            width: this.state.mount? `420px`: `350px`,
             position: `relative`,
+            top: `-600px`,
+            left: this.state.mount? '60%' : '40%',
             zIndex: 30
           }}>
+          <Parallax className="" y={[-15,0]} tagOuter="figure">
             <img  src={pic1} className="picShow" alt="fireSpot" />
+            </Parallax>
             </div>
 
 
-          </div>
-        </div>
-      </div>
-
 
       <div style={{
-        background: `white`,
+        background: `transparent`,
         padding: `80px 5%`,
-         transform: this.state.mount? `translateY(0px)` : `translateY(800vh)`,
+         transform: this.state.mount? `translateY(-185vh)` : `translateY(800vh)`,
          transition: ` all 2s ease-out`,
          position: `relative`,
             zIndex: 5
       }}>
 
       <div style={{
-          borderLeft: `20px solid rgba(250, 238, 89, .51)`,
+          borderLeft: `15px solid rgba(250, 238, 89, .31)`,
           padding: `0px 20px`,
           marginBottom: `150px`
       }}>
-      <h2 className="PTitle"> NINA COLLECTION </h2>
       <h3 className="Year"> 2018 </h3>
+      <h2 className="PTitle"> NINA COLLECTION </h2>
 
-      <h3 className="PDesc" > Modelism </h3>
+      <h3 className="PDesc" > Design & Pattern making </h3>
 
       <p className="desc"> "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -78,9 +85,9 @@ render() {
        deserunt mollit anim id est laborum." </p>
 
 
-       <p> <strong> Photographer: </strong> Gabrielle Riouah </p>
-       <p> <strong> Model: </strong> Nina Steimel </p>
-       <p> <strong> Make up: </strong>  Caroline Madison</p>
+       <p> <strong className="strong"> Photographer -  </strong> Gabrielle Riouah </p>
+       <p> <strong className="strong"> Model - </strong> Nina Steimel </p>
+       <p> <strong className="strong"> Make up - </strong>  Caroline Madison</p>
 
        </div>
 

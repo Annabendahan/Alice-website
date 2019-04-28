@@ -10,6 +10,8 @@ import pic3 from '../images/modif 3.jpg';
 import pic4 from '../images/modif 5.jpg';
 import pic5 from '../images/modif 7.jpg';
 import pic6 from '../images/modif 6.jpg';
+import pic10 from '../images/nextppng.png';
+import { Parallax } from 'react-scroll-parallax';
 
 class  KnicksQueens extends Component {
   state={
@@ -25,46 +27,57 @@ render() {
 
 
   return(
-<div className="background">
+<div className="background-pr">
     <Layout>
-      <div className="projets">
-        <div className="projet">
+<div style={{
+      background:`#FFFBC6`,
+      marginTop: `-20vh`,
 
-            <div className="picture1" >
+      height: `110vh`,
+      transform: this.state.mount? `translateX(50%)` : `translateX(100%)`,
+      transition: ` all 2s ease-out`
+    }}></div>
+
+
+
+
+
+
             <div style={{
-            transform: this.state.mount? `translate(320px, 50px)` : `translateY(0vh)`,
+
             transition: ` all 2s ease-out`,
-            width: this.state.mount? `450px`: `300px`,
-            height: `200px`,
+            width: this.state.mount? `450px`: `350px`,
             position: `relative`,
+            top: `-600px`,
+            left: this.state.mount? '60%' : '40%',
             zIndex: 30
           }}>
-            <img  src={pic1} className="picShow" alt="fireSpot" />
+          <Parallax className="" y={[-20,10]} tagOuter="figure">
+            <img  src={pic1} className="pic4" alt="fireSpot" />
+          </Parallax>
             </div>
 
-          </div>
-        </div>
-      </div>
 
 
       <div style={{
-        background: `white`,
+        background: `transparent`,
         padding: `80px 5%`,
-         transform: this.state.mount? `translateY(0px)` : `translateY(800vh)`,
+         transform: this.state.mount? `translateY(-188vh)` : `translateY(800vh)`,
          transition: ` all 2s ease-out`,
          position: `relative`,
             zIndex: 5
       }}>
 
       <div style={{
-          borderLeft: `20px solid rgba(250, 238, 89, .51)`,
+          borderLeft: `15px solid rgba(250, 238, 89, .31)`,
           padding: `0px 20px`,
           marginBottom: `150px`
       }}>
-      <h2 className="PTitle"> BANLIEUE X PROJET </h2>
-      <h3 className="Year"> 2018 </h3>
 
-      <h3 className="PDesc" > Collection de fin d'études </h3>
+      <h3 className="Year"> 2018 </h3>
+      <h2 className="PTitle"> KNICKS QUEENS </h2>
+
+      <h3 className="PDesc" > Design & Pattern making </h3>
 
       <p className="desc"> "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -75,10 +88,10 @@ render() {
        deserunt mollit anim id est laborum." </p>
 
 
-       <p> <strong> Photographer: </strong> CARA Photographies </p>
-       <p> <strong> Model: </strong> Monique Andrew / Arnaud Pagnaro </p>
-       <p> <strong> Make up: </strong>  Maria M Zola </p>
-       <p> <strong> Studio: </strong> Studio Valmy </p>
+       <p> <strong className="strong"> Photographer - </strong> CARA Photographies </p>
+       <p> <strong className="strong"> Model - </strong> Monique Andrew / Arnaud Pagnaro </p>
+       <p> <strong className="strong"> Make up - </strong>  Maria M Zola </p>
+       <p> <strong className="strong"> Studio - </strong> Studio Valmy </p>
        </div>
 
 
@@ -91,7 +104,11 @@ render() {
       </div>
 
 
-
+<div className="nextP">
+      <Link to='/heuredepointe/'>
+      <img  src={pic10} className="picNext" alt="fireSpot" />
+</Link>
+      </div>
 
 
 

@@ -5,7 +5,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import '../components/projets.css'
 import pic1 from '../images/Gabrielle_Riouah_Web_18_01_24_Test Nina_Supreme0001.jpg';
-import pic2 from '../images/discoverPNG.png';
+import pic2 from '../images/disc1.png';
 
 class  Projet2 extends Component {
 state = {

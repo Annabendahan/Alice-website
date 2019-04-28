@@ -53,6 +53,9 @@ render(){
       <img  src={pic1} className="picS" alt="fireSpot" />
       <img  src={pic1} className="picS" alt="fireSpot" />
       <img  src={pic1} className="picS" alt="fireSpot" />
+      <img  src={pic1} className="picS" alt="fireSpot" />
+      <img  src={pic1} className="picS" alt="fireSpot" />
+      <img  src={pic1} className="picS" alt="fireSpot" />
 
       </div>
       </div>

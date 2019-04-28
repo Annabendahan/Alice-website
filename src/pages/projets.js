@@ -83,7 +83,8 @@ console.log(this.state.p3)
         <div style= {{
           zIndex: `21`,
          visibility: this.state.p1? `visible`: `hidden`,
-          position: `relative`
+          position: `relative`,
+          left: `150px`
         }} className="next" onClick={this.handleProjet1}>
               <p className='transparent'>
 
@@ -106,7 +107,8 @@ console.log(this.state.p3)
         <div style= {{
           zIndex: `16`,
           visibility: this.state.p2? `visible`: `hidden`,
-          position: `relative`
+          position: `relative`,
+          left: `150px`
         }} className="next" onClick={this.handleProjet2}>
              <p className='transparent'>
 
@@ -129,7 +131,8 @@ console.log(this.state.p3)
         <div style= {{
           zIndex: `10`,
           visibility: this.state.p3? `visible`: `hidden`,
-          position: `relative`
+          position: `relative`,
+          left: `150px`
         }} className="next" onClick={this.handleProjet3}>
               <p className='transparent'>
 
@@ -153,7 +156,8 @@ console.log(this.state.p3)
         <div style= {{
           zIndex: `7`,
           visibility: this.state.p4? `visible`: `hidden`,
-          position: `relative`
+          position: `relative`,
+          left: `150px`
         }} className="next" onClick={this.handleProjet4}>
               <svg width="71" height="70" viewBox="0 0 71 70" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect width="71" height="70" fill="none"/>

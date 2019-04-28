@@ -9,16 +9,16 @@ align-items: center;
 }
 
 .svg1{
-  top: 1px;
-  left: 75px;
+  top: -1px;
+  left: 95px;
   position: absolute;
   visibility: hidden;
 
 }
 
 .svg2{
-  top: 1px;
-  left: 215px;
+  top: -1px;
+  left: 245px;
   position: absolute;
   visibility: hidden;
 
@@ -26,8 +26,8 @@ align-items: center;
 
 
 .svg3{
-  top: 1px;
-  left: 315px;
+  top: -1px;
+  left: 355px;
   position: absolute;
   visibility: hidden;
 

@@ -44,11 +44,11 @@ const Header = ({ siteTitle, siteDescription }) => (
           style={{
             padding: `0px 30px`,
             color: `#263654`,
-            fontWeight: `300`,
+            fontWeight: `400`,
             fontSize: `.8rem`,
             textDecoration: `none`,
           }}
-        > <span className="proj"> Projets </span> <svg  className="svg1" width="31" height="30" viewBox="0 0 71 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+        > <span className="proj"> PROJETS </span> <svg  className="svg1" width="31" height="30" viewBox="0 0 71 70" fill="none" xmlns="http://www.w3.org/2000/svg">
 <line x1="9" y1="33.5" x2="62" y2="33.5" stroke="#263654" stroke-width="2"/>
 </svg>
  </Link>
@@ -56,12 +56,12 @@ const Header = ({ siteTitle, siteDescription }) => (
           to="/moodboard/"
           style={{
             padding: `0px 30px`,
-            fontWeight: `300`,
+            fontWeight: `400`,
             color: `#263654`,
             fontSize: `.8rem`,
             textDecoration: `none`,
           }}
-        > <span className="md"> Moodboard </span>  <svg className="svg2" width="31" height="30" viewBox="0 0 71 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+        > <span className="md"> MOODBOARD </span>  <svg className="svg2" width="31" height="30" viewBox="0 0 71 70" fill="none" xmlns="http://www.w3.org/2000/svg">
 <line x1="9" y1="33.5" x2="62" y2="33.5" stroke="#263654" stroke-width="2"/>
 </svg>
 </Link>
@@ -70,12 +70,12 @@ const Header = ({ siteTitle, siteDescription }) => (
           to="/about/"
           style={{
             padding: `0px 30px`,
-            fontWeight: `300`,
+            fontWeight: `400`,
             color: `#263654`,
             fontSize: `.8rem`,
             textDecoration: `none`,
           }}
-        > <span className="ab"> About </span>  <svg className="svg3" width="31" height="30" viewBox="0 0 71 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+        > <span className="ab"> ABOUT </span>  <svg className="svg3" width="31" height="30" viewBox="0 0 71 70" fill="none" xmlns="http://www.w3.org/2000/svg">
 <line x1="9" y1="33.5" x2="62" y2="33.5" stroke="#263654" stroke-width="2"/>
 </svg>
 </Link>

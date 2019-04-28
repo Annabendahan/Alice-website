@@ -1,6 +1,7 @@
 .videoDiv{
   margin:auto;
   position: relative;
+  z-index: 20;
 }
 
 
@@ -14,7 +15,7 @@ video{
   width: 68%;
   height: 85vh;
   margin-left: 33%;
-  margin-top: 0px;
+  margin-top: -20px;
   margin-bottom: 30px;
   z-index:5;
   position: relative
@@ -39,32 +40,37 @@ text-decoration: none;
 
 
 .titles h2{
-   -webkit-text-stroke: .05rem white;
-   color: transparent;
+
+   color: #263654;
+   font-weight: 900;
+   font-family: Roboto
 }
 
 
 .titles h1{
 
    color: #263654;
-   font-weight: 900;
+   font-weight: 300;
+   width: 400px;
+   font-family: Roboto;
 }
 
 
 .voir{
-  margin-left: 15%;
+  margin-left: 35%;
   position: relative;
-  margin-top: 70px;
-  font-weight: 500;
+  margin-top: 100px;
+  font-weight: 900;
+  font-family: Roboto;
 }
 
 .voir:hover svg{
-  left: 180px;
+  left: 175px;
 }
 
 .voir svg{
   position: absolute;
-  top: -20px;
+  top: -13px;
 }
 
 

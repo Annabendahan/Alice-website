@@ -14,6 +14,7 @@ import pic7 from '../images/metro (8 sur 13).jpg';
 import pic8 from '../images/FB_IMG_1530209047707.jpg';
 import pic9 from '../images/FB_IMG_1530655578109.jpg';
 import pic10 from '../images/nextppng.png';
+import { Parallax } from 'react-scroll-parallax';
 
 class  HeuredePointe extends Component {
   state={
@@ -29,51 +30,67 @@ render() {
 
 
   return(
-    <div className="background">
+    <div className="background-pr">
     <Layout>
-      <div className="projets">
-        <div className="projet">
 
-            <div className="picture1" >
+    <div style={{
+      background:`#FFFBC6`,
+      marginTop: `-20vh`,
+
+      height: `110vh`,
+      transform: this.state.mount? `translateX(50%)` : `translateX(100%)`,
+      transition: ` all 2s ease-out`
+    }}></div>
+
+
+
+
+
             <div style={{
-            transform: this.state.mount? `translate(320px, 50px)` : `translateY(0vh)`,
+
             transition: ` all 2s ease-out`,
-            width: this.state.mount? `450px`: `300px`,
+            width: this.state.mount? `450px`: `320px`,
             position: `relative`,
+            top: `-600px`,
+            left: this.state.mount? '60%' : '40%',
             zIndex: 30
           }}>
-            <img  src={pic1} className="picShow" alt="fireSpot" />
+
+<Parallax className="" y={[-20,10]} tagOuter="figure">
+            <img  src={pic1} className="pic1" alt="fireSpot" />
+             </Parallax>
             </div>
 
 
-          </div>
-        </div>
-      </div>
+
 
 
 
 
 
       <div style={{
-        background: `url(../images/picNina.png)`,
+        backgroundColor: `transparent`,
 
         margin:`auto`,
-        padding: `60px 7%`,
-         transform: this.state.mount? `translateY(0px)` : `translateY(800vh)`,
+        padding: `60px 5%`,
+         transform: this.state.mount? `translateY(-185vh)` : `translateY(800vh)`,
          transition: ` all 2s ease-out`,
          position: `relative`,
             zIndex: 5
       }}>
 
+
       <div style={{
-          borderLeft: `20px solid rgba(250, 238, 89, .51)`,
+          borderLeft: `15px solid rgba(250, 238, 89, .21)`,
           padding: `0px 20px`,
           marginBottom: `150px`
       }}>
-      <h2 className="PTitle"> HEURES DE POINTE </h2>
-      <h3 className="Year"> 2018 </h3>
 
-      <h3 className="PDesc" > Collection de fin d'études </h3>
+      <h3 className="Year"> 2018 </h3>
+      <h2 className="PTitle"> HEURES DE POINTE </h2>
+
+
+      <h3 className="PDesc" > Design & Pattern making </h3>
 
       <p className="desc"> "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -84,10 +101,10 @@ render() {
        deserunt mollit anim id est laborum." </p>
 
 
-       <p> <strong> Photographer: </strong> CARA Photographies </p>
-       <p> <strong> Model: </strong> Monique Andrew / Arnaud Pagnaro </p>
-       <p> <strong> Make up: </strong>  Maria M Zola </p>
-       <p> <strong> Studio: </strong> Studio Valmy </p>
+       <p> <strong className="strong" > Photographer - </strong> CARA Photographies </p>
+       <p> <strong className="strong" > Model - </strong> Monique Andrew / Arnaud Pagnaro </p>
+       <p> <strong className="strong"> Make up - </strong>  Maria M Zola </p>
+       <p> <strong className="strong"> Studio -</strong> Studio Valmy </p>
        </div>
 
 
