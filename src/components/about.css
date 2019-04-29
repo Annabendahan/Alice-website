@@ -1,5 +1,5 @@
 .left{
-  padding: 5%;
+  padding: 1% 5%;
   width: 50%;
 
 }
@@ -8,7 +8,7 @@
 .left p{
   text-align: justify;
   color: #4B4B4B;
-  font-size: .9rem;
+  font-size: .8rem;
   font-weight: 300;
 }
 
@@ -27,7 +27,7 @@
 
 .picAbout{
   width: 350px;
-  margin: 8% 7%;
+  margin: 10% 7%;
 
 }
 

@@ -60,7 +60,7 @@ componentDidMount() {
       marginTop: `-110vh`,
 
       height: `110vh`,
-      transform: this.state.mount? `translateX(20%)` : `translateX(100%)`,
+      transform: this.state.mount? `translateX(27%)` : `translateX(100%)`,
       transition: ` all 2s ease-out`
     }}></div>
 

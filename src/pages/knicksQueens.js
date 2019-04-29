@@ -77,7 +77,7 @@ render() {
       <h3 className="Year"> 2018 </h3>
       <h2 className="PTitle"> KNICKS QUEENS </h2>
 
-      <h3 className="PDesc" > Design & Pattern making </h3>
+      <h3 className="PDesc" > Designer & Pattern maker </h3>
 
       <p className="desc"> "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.

@@ -5,6 +5,8 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import '../components/about.css'
 import pic1 from '../images/square.png';
+import pic2 from '../images/mood2.png';
+import pic3 from '../images/mood3.png';
 import '../components/moodboard.css'
 
 
@@ -48,14 +50,14 @@ render(){
 
 
       <img  src={pic1} className="picS" alt="fireSpot" />
+      <img  src={pic2} className="picS" alt="fireSpot" />
+      <img  src={pic3} className="picS" alt="fireSpot" />
+      <img  src={pic3} className="picS" alt="fireSpot" />
       <img  src={pic1} className="picS" alt="fireSpot" />
+      <img  src={pic2} className="picS" alt="fireSpot" />
       <img  src={pic1} className="picS" alt="fireSpot" />
-      <img  src={pic1} className="picS" alt="fireSpot" />
-      <img  src={pic1} className="picS" alt="fireSpot" />
-      <img  src={pic1} className="picS" alt="fireSpot" />
-      <img  src={pic1} className="picS" alt="fireSpot" />
-      <img  src={pic1} className="picS" alt="fireSpot" />
-      <img  src={pic1} className="picS" alt="fireSpot" />
+      <img  src={pic2} className="picS" alt="fireSpot" />
+      <img  src={pic3} className="picS" alt="fireSpot" />
 
       </div>
       </div>

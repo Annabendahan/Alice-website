@@ -24,7 +24,7 @@ video{
 
 .titles{
   position: absolute;
-top: 20%;
+top: 12%;
 left: 3%;
 width: 30%;
 
@@ -43,7 +43,8 @@ text-decoration: none;
 
    color: #263654;
    font-weight: 900;
-   font-family: Roboto
+   font-family: Roboto;
+   font-size: 1.5rem;
 }
 
 
@@ -51,15 +52,16 @@ text-decoration: none;
 
    color: #263654;
    font-weight: 300;
-   width: 400px;
+   font-size: 2.9rem;
+   width: 380px;
    font-family: Roboto;
 }
 
 
 .voir{
-  margin-left: 35%;
+  margin-left: 25%;
   position: relative;
-  margin-top: 100px;
+  margin-top: 80px;
   font-weight: 900;
   font-family: Roboto;
 }
@@ -70,7 +72,7 @@ text-decoration: none;
 
 .voir svg{
   position: absolute;
-  top: -13px;
+  top: -11px;
 }
 
 
