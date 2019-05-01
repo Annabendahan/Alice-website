@@ -32,8 +32,9 @@ render() {
 <div style={{
       background:`#FFFBC6`,
       marginTop: `-20vh`,
+      marginBottom: `0px`,
 
-      height: `110vh`,
+      height: `120vh`,
       transform: this.state.mount? `translateX(50%)` : `translateX(100%)`,
       transition: ` all 2s ease-out`
     }}></div>
@@ -46,9 +47,10 @@ render() {
             <div style={{
 
             transition: ` all 2s ease-out`,
-            width: this.state.mount? `450px`: `350px`,
+            width: this.state.mount? `370px`: `350px`,
             position: `relative`,
-            top: `-600px`,
+            top: `-640px`,
+            marginLeft:`25px`,
             left: this.state.mount? '60%' : '40%',
             zIndex: 30
           }}>
@@ -62,7 +64,7 @@ render() {
       <div style={{
         background: `transparent`,
         padding: `80px 5%`,
-         transform: this.state.mount? `translateY(-188vh)` : `translateY(800vh)`,
+         transform: this.state.mount? `translateY(-1300px)` : `translateY(-500px)`,
          transition: ` all 2s ease-out`,
          position: `relative`,
             zIndex: 5
@@ -79,19 +81,15 @@ render() {
 
       <h3 className="PDesc" > Designer & Pattern maker </h3>
 
-      <p className="desc"> "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-       sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-       Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-       nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-       reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-       Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-       deserunt mollit anim id est laborum." </p>
+      <p className="desc"> Knicks Queens est une collection de mode inspirée du monde du basketball . Elle rappelle les couleurs de l’équipe des Knicks Queens, le bleu, le orange et le blanc.
+Le sweat en résille fait écho aux filets et aux grillages des terrains de basket de rue américains. Les poches rondes sur la veste et le pantalon rappellent la forme du ballon de basket. </p>
 
-
-       <p> <strong className="strong"> Photographer - </strong> CARA Photographies </p>
-       <p> <strong className="strong"> Model - </strong> Monique Andrew / Arnaud Pagnaro </p>
-       <p> <strong className="strong"> Make up - </strong>  Maria M Zola </p>
-       <p> <strong className="strong"> Studio - </strong> Studio Valmy </p>
+        <div className="credits">
+        <p> <strong className="strong"> Designer - </strong> Alice Thonnier - Heloise Sauvet - Marie Fournier - Roxane de Korody  </p>
+       <p> <strong className="strong"> Photographer - </strong> Roxane de Korody  </p>
+       <p> <strong className="strong"> Model - </strong> Athéna Lisnyj </p>
+       <p> <strong className="strong"> Place - </strong> Pigalle Basketball </p>
+       </div>
        </div>
 
 

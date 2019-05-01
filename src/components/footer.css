@@ -1,0 +1,24 @@
+.footer{
+display: flex;
+  padding: 20px;
+  font-family: newMedia;
+  font-size: .7rem;
+  letter-spacing: 0.1em;
+  margin-top: 200px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+
+.footer a{
+
+font-size: .8rem;
+margin: 5px;
+
+}
+
+.insta{
+  font-size: .3rem;
+  width: 2px;
+  color: red;
+}

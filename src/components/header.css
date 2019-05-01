@@ -1,16 +1,26 @@
 .tabs-container{
-
+font-family: newMedia;
 padding: 0rem 1.0875rem;
 display: flex;
 width: 100%;
 justify-content: space-between;
 align-items: center;
+letter-spacing: .1rem;
+
 
 }
 
+.tabs-container h1{
+  font-size: 1rem;
+  margin-top: 20px;
+  font-family: newMedia;
+}
+
+
+
 .svg1{
   top: -1px;
-  left: 95px;
+  left: 100px;
   position: absolute;
   visibility: hidden;
 
@@ -18,7 +28,7 @@ align-items: center;
 
 .svg2{
   top: -1px;
-  left: 245px;
+  left: 249px;
   position: absolute;
   visibility: hidden;
 

@@ -13,8 +13,7 @@
 
 .background{
   background:white;
-  overflow: hidden;
-  height: 100vh;
+
 }
 
 .background-pr{
@@ -50,7 +49,7 @@ background:yellow;
 
   margin-left: 38%;
   width: 500px;
-  margin-top: 0px;
+  margin-top: 50px;
 
 }
 
@@ -64,7 +63,7 @@ background:yellow;
 
 
 .projet{
-  font-family: Roboto;
+  font-family: newMedia;
   position: absolute;
   display: flex;
   align-items: center;
@@ -74,57 +73,62 @@ background:yellow;
 }
 
 .title{
+  font-family: newMedia;
   position: absolute;
   padding: 20px 0px;
   transform: rotate(-90deg);
   top: 80px;
   left: -180px;
-  color: #33405D;
+  color:  #2D3036;
   background:white;
   font-weight: 600;
 }
 
 
 .title2{
+  font-family: newMedia;
   position: absolute;
   padding: 20px 10px;
   transform: rotate(-90deg);
  top: 80px;
    left: -170px;
-  color: #33405D;
+ color:  #2D3036;
   background:white;
   font-weight: 600;
 }
 
 .title3{
+  font-family: newMedia;
   position: absolute;
   padding: 20px 0px;
   transform: rotate(-90deg);
   top: 80px;
    left: -180px;
-  color: #33405D;
+  color:  #2D3036;
   background:white;
   font-weight: 600;
 }
 .title4{
+  font-family: newMedia;
   position: absolute;
   padding: 20px 0px;
   transform: rotate(-90deg);
   top: 80px;
    left: -170px;
-  color:#33405D;
+  color:  #2D3036;
   background:white;
   font-weight: 600;
 }
 
 
 .subtitle{
+  font-family: newMedia;
   position: absolute;
   transform: rotate(-90deg);
   top: 80px;
-  left: -150px;
-  color: #33405D;
-  background:wuite;
+  left: -135px;
+  color:  #2D3036;
+  background:white;
   font-weight: 300;
 }
 img{
@@ -214,7 +218,8 @@ font-size: .8rem;
 
 .desc{
   margin-top: 50px;
-  font-family: Roboto;
+  font-family: newMedia;
+  letter-spacing: .1rem;
   font-weight: 300;
   width: 46%;
 text-align: justify;
@@ -280,25 +285,28 @@ color: #4B4B4B;}
 }
 
 .Year{
-  color:#263654;
+  font-family: newMedia;
+  letter-spacing: .1rem;
 
 }
 
 .PTitle{
 
-  font-family: Roboto;
+  font-family: newMedia;
+  letter-spacing: .1rem;
   font-weight: 300;
   font-size: 2rem;
-  color:#263654;
+  color:  #2D3036;
   margin-top: -10px;
 }
 
 .PDesc{
 
-  font-family: Roboto;
+  font-family: newMedia;
+  letter-spacing: .1rem;
   font-weight: 700;
   margin-top: -10px;
-  color:#263654;
+  color:  #2D3036;
   font-size: 1rem;
 }
 
@@ -326,5 +334,12 @@ text-decoration: none;
 
 
  .strong{
-    color:#263654
+    color:#263654;
+
+ }
+
+ .credits{
+  font-family: newMedia;
+  width: 46%;
+  letter-spacing: .1rem;
  }

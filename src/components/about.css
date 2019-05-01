@@ -1,6 +1,9 @@
 .left{
   padding: 1% 5%;
   width: 50%;
+  font-family: newMedia;
+  letter-spacing: 0.1em;
+  color:  #2D3036;
 
 }
 
@@ -15,25 +18,33 @@
 
 .left h1{
  font-weight: 300;
- color:#263654;
+
  font-size: 2rem;
+
+}
+
+
+.left h3{
+   font-family: newMedia;
+  letter-spacing: 0.1em;
+  margin-top: -50px
 }
 
 .left h2{
  font-weight: 700;
- color:#263654;
+
 }
 
 
 .picAbout{
   width: 350px;
-  margin: 10% 7%;
+  margin: 220px 7%;
 
 }
 
 .insta{
-  font-size: 2rem;
-  color:#263654;
+  font-size: 1.5rem;
+  color:#2D3036;
 }
 
 
@@ -48,3 +59,10 @@
 }
 .phone{
 color:#263654;}
+
+.LOGOabout{
+  margin-top: -30px;
+}
+
+
+

@@ -35,8 +35,9 @@ render() {
      <div style={{
       background:`#FFFBC6`,
       marginTop: `-20vh`,
+      marginBottom: `0px`,
 
-      height: `110vh`,
+      height: `120vh`,
       transform: this.state.mount? `translateX(50%)` : `translateX(100%)`,
       transition: ` all 2s ease-out`
     }}></div>
@@ -46,9 +47,10 @@ render() {
             <div style={{
 
             transition: ` all 2s ease-out`,
-            width: this.state.mount? `450px`: `350px`,
+            width: this.state.mount? `370px`: `350px`,
             position: `relative`,
-            top: `-600px`,
+            top: `-640px`,
+            marginLeft:`25px`,
             left: this.state.mount? '60%' : '40%',
             zIndex: 30
           }}>
@@ -62,7 +64,7 @@ render() {
       <div style={{
         background: `transparent`,
         padding: `60px 5%`,
-         transform: this.state.mount? `translateY(-185vh)` : `translateY(800vh)`,
+         transform: this.state.mount? `translateY(-1300px)` : `translateY(-500px)`,
          transition: ` all 2s ease-out`,
          position: `relative`,
             zIndex: 5
@@ -74,25 +76,23 @@ render() {
           marginBottom: `150px`
       }}>
       <h3 className="Year"> 2018 </h3>
-      <h2 className="PTitle"> BANLIEUE X PROJET </h2>
+      <h2 className="PTitle"> BANLIEUE X  </h2>
 
 
       <h3 className="PDesc" > Designer & Pattern maker </h3>
 
-      <p className="desc"> "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-       sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-       Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-       nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-       reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-       Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-       deserunt mollit anim id est laborum." </p>
+      <p className="desc"> What do young people do in a post-apocalyptic world, where perfection is not wanted anymore and borders are abolished? They start creating. They do fashion. They dance. They put their forces together and build something new. A story about a group of friends that is not afraid of the future. The timeless Banlieue serves as setting, under the artistic direction of Oana von Rave – in exclusive for The Flow House. - Karim Coppola </p>
 
-
-       <p> <strong className="strong"> Photographer - </strong> Adem Photographie / Djoka photographie </p>
-       <p> <strong className="strong" > Starring - </strong> Williams Agency's boys / Julienne / Arnaud Steph</p>
-       <p> <strong className="strong" > Make up - </strong>  Antoine L'Hebrellec / Chloé Badeau </p>
-        <p> <strong className="strong"> Dancers - </strong>  Antoine L'Hebrellec / Chloé Badeau </p>
+<div className="credits">
+       <p> <strong className="strong"> Designer - </strong> Alice Thonnier   </p>
+       <p> <strong className="strong"> Photographer - </strong> Jean Marc Jaleel </p>
+       <p> <strong className="strong" > Starring - </strong> Yamine Khiar, Paul Huet, Helmy El Wakil (Williams Management), Stephanie Arnaud, Julienne I., Laura Ung</p>
+       <p> <strong className="strong" > Hair & Make up - </strong>  Antoine L'Hebrellec / Chloé Badeau </p>
+        <p> <strong className="strong"> Dancers - </strong>  Perkins Kelley, Mr. Boma </p>
        <p> <strong className="strong"> Styled by - </strong> Oana Von Raven </p>
+       <p> <strong className="strong"> Brands - </strong> Alice Thonnier, ASOS, La Perla, American Apparel, Nike, Dr. Martens, Tod’s, Acne Studios, Vintage Army
+In exclusive for: The Flow House</p>
+       </div>
        </div>
 
 

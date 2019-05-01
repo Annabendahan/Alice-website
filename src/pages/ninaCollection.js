@@ -35,8 +35,9 @@ render() {
     <div style={{
       background:`#FFFBC6`,
       marginTop: `-20vh`,
+      marginBottom: `0px`,
 
-      height: `110vh`,
+      height: `120vh`,
       transform: this.state.mount? `translateX(50%)` : `translateX(100%)`,
       transition: ` all 2s ease-out`
     }}></div>
@@ -44,9 +45,10 @@ render() {
             <div style={{
 
             transition: ` all 2s ease-out`,
-            width: this.state.mount? `420px`: `350px`,
+            width: this.state.mount? `370px`: `350px`,
             position: `relative`,
-            top: `-600px`,
+            top: `-640px`,
+            marginLeft:`25px`,
             left: this.state.mount? '60%' : '40%',
             zIndex: 30
           }}>
@@ -60,7 +62,7 @@ render() {
       <div style={{
         background: `transparent`,
         padding: `80px 5%`,
-         transform: this.state.mount? `translateY(-185vh)` : `translateY(800vh)`,
+         transform: this.state.mount? `translateY(-1250px)` : `translateY(-500px)`,
          transition: ` all 2s ease-out`,
          position: `relative`,
             zIndex: 5
@@ -76,23 +78,20 @@ render() {
 
       <h3 className="PDesc" > Designer & Pattern maker </h3>
 
-      <p className="desc"> "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-       sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-       Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-       nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-       reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-       Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-       deserunt mollit anim id est laborum." </p>
+      <p className="desc">  </p>
 
-
+        <div className="credits">
        <p> <strong className="strong"> Photographer -  </strong> Gabrielle Riouah </p>
        <p> <strong className="strong"> Model - </strong> Nina Steimel </p>
        <p> <strong className="strong"> Make up - </strong>  Caroline Madison</p>
-
+        </div>
        </div>
 
+      <div style={{
+        marginTop: `300px`}} className="pics">
         <img  src={pic2} className="picDisplay" alt="fireSpot" />
        <img  src={pic3} className="picDisplay" alt="fireSpot" />
+      </div>
 
 
        <div className="nextP">

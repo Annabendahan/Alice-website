@@ -15,8 +15,8 @@ video{
   width: 68%;
   height: 85vh;
   margin-left: 33%;
-  margin-top: -20px;
-  margin-bottom: 30px;
+  margin-top: 20px;
+  margin-bottom: 40px;
   z-index:5;
   position: relative
 }
@@ -24,6 +24,7 @@ video{
 
 .titles{
   position: absolute;
+  font-family: newMedia;
 top: 12%;
 left: 3%;
 width: 30%;
@@ -41,38 +42,60 @@ text-decoration: none;
 
 .titles h2{
 
-   color: #263654;
-   font-weight: 900;
-   font-family: Roboto;
-   font-size: 1.5rem;
+   letter-spacing: 0.1em;
+  color:  #2D3036;
+   font-weight: 300;
+   font-family: newMedia;
+   font-size: .8rem;
+   margin-top: 60px;
+   margin-left: 15px;
+}
+
+
+.titles svg{
+  margin-bottom: -10px;
 }
 
 
 .titles h1{
 
-   color: #263654;
-   font-weight: 300;
-   font-size: 2.9rem;
+   letter-spacing: 0.1em;
+  color:  #2D3036;
+   font-weight: 100;
+   font-size: .9rem;
    width: 380px;
-   font-family: Roboto;
+   font-family: newMedia;
 }
 
 
 .voir{
-  margin-left: 25%;
+  margin-left: 19%;
   position: relative;
-  margin-top: 80px;
-  font-weight: 900;
-  font-family: Roboto;
+  background:#2D3036 ;
+  padding: 14px 12px;
+  padding-top: 16px;
+  width: 150px;
+  font-weight: 300;
+  color: white;
+  font-size: .8rem;
+ font-family: newMedia;
+  text-align: center;
+  letter-spacing: 0.1em;
+
 }
 
-.voir:hover svg{
-  left: 175px;
+.voir a{
+  color: white;
 }
 
-.voir svg{
-  position: absolute;
-  top: -11px;
+.voir:hover {
+
+   font-weight: 900;
 }
+
+
+.LOGO{
+margin-top: -90px;}
+
 
 
