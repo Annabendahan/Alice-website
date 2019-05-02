@@ -13,6 +13,20 @@ import pic6 from '../images/metro (6 sur 13).jpg';
 import pic7 from '../images/metro (8 sur 13).jpg';
 import pic8 from '../images/FB_IMG_1530209047707.jpg';
 import pic9 from '../images/FB_IMG_1530655578109.jpg';
+
+import pic11 from '../images/Heures de Pointe 01.jpg';
+import pic12 from '../images/Heures de Pointe 02.jpg';
+import pic13 from '../images/Heures de Pointe 03.jpg';
+import pic14 from '../images/Heures de Pointe 04.jpg';
+import pic15 from '../images/Heures de Pointe 09.jpg';
+import pic16 from '../images/Heures de Pointe 10.jpg';
+import pic17 from '../images/Heures de Pointe 11.jpg';
+import pic18 from '../images/Heures de Pointe 13.jpg';
+
+
+
+
+
 import pic10 from '../images/nextppng.png';
 import { Parallax } from 'react-scroll-parallax';
 
@@ -113,6 +127,15 @@ render() {
        <img  src={pic6} className="picDisplay" alt="fireSpot" />
        <img  src={pic7} className="picDisplay" alt="fireSpot" />
        <img  src={pic8} className="picDisplay" alt="fireSpot" />
+
+       <img  src={pic11} className="picDisplay" alt="fireSpot" />
+       <img  src={pic12} className="picDisplay" alt="fireSpot" />
+       <img  src={pic13} className="picDisplay" alt="fireSpot" />
+       <img  src={pic14} className="picDisplay" alt="fireSpot" />
+       <img  src={pic15} className="picDisplay" alt="fireSpot" />
+       <img  src={pic16} className="picDisplay" alt="fireSpot" />
+       <img  src={pic17} className="picDisplay" alt="fireSpot" />
+       <img  src={pic18} className="picDisplay" alt="fireSpot" />
 
 
 

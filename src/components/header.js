@@ -43,6 +43,7 @@ const Header = ({ siteTitle, siteDescription }) => (
 <line x1="9" y1="33.5" x2="62" y2="33.5" stroke="#263654" stroke-width="2"/>
 </svg>
  </Link>
+
         <Link
           to="/moodboard/"
           style={{
@@ -73,7 +74,11 @@ const Header = ({ siteTitle, siteDescription }) => (
 
         </div>
 
+
     </div>
+
+
+
   </header>
 )
 

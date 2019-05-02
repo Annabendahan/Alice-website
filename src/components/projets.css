@@ -70,6 +70,8 @@ background:yellow;
   justify-content: space-between;
   width: 100%;
 
+  z-index: 30;
+
 }
 
 .title{
@@ -182,22 +184,22 @@ background: transparent;
 
 .pic1{
 
-  width: 400px;
+  width: 350px;
 }
 
 .pic2{
 
-  width: 400px;
+  width: 350px;
 }
 
 .pic3{
 
-  width: 400px;
+  width: 350px;
 }
 
 .pic4{
 
-  width: 400px;
+  width: 350px;
 }
 
 .picShow{
@@ -343,3 +345,31 @@ text-decoration: none;
   width: 46%;
   letter-spacing: .1rem;
  }
+
+
+.Previous{
+position: absolute;
+z-index: 30;
+top: 50vh;
+left: 7%;
+transform: rotate(180deg);
+}
+
+.Previous:hover{
+  cursor: pointer;
+}
+
+
+
+.Next{
+z-index: 30;
+position: absolute;
+top: 50vh;
+left: 93%;
+
+}
+
+
+.Next:hover{
+  cursor: pointer;
+}

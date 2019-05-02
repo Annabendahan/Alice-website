@@ -9,10 +9,14 @@ import pic2 from '../images/disc1.png';
 
 class  Projet3 extends Component {
 state = {
-  scrolled: false,
-  scrolling: 0,
-  show: 1
+  mount: false
 }
+
+
+componentDidMount = () =>{
+ this.setState({mount: true})
+}
+
 
 render() {
 
@@ -21,10 +25,26 @@ render() {
 
 <Link to= "/banlieueXprojet/">
 
-    <div className="picture3" >
+
+
+      <div className="projet p3">
+        <div style= {{
+          zIndex: `10`,
+          position: `relative`,
+
+        }}>
+           <div className="picture3" >
     <img  src={pic1} className="pic3" alt="fireSpot" />
     <div className="voirP">  <span className="arrow"> <img  src={pic2} className="picShow" alt="fireSpot" /> </span> </div>
     </div>
+          <h3 className="title3"> Banlieue x projet</h3>
+          <h4 className="subtitle"> Designer & Pattern Maker </h4>
+        </div>
+
+      </div>
+
+
+
 
     </Link>
 

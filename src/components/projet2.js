@@ -25,10 +25,24 @@ render() {
 
     <Link to= "/ninaCollection/">
 
-    <div className="picture2" >
+
+    <div className="projet p2">
+        <div style= {{
+          zIndex: `15`,
+          position: `relative`,
+
+        }}>
+          <div className="picture2" >
     <img  src={pic1} className="pic2" alt="fireSpot" />
      <div className="voirP">  <span className="arrow"> <img  src={pic2} className="picShow" alt="fireSpot" /> </span> </div>
   </div>
+
+          <h3 className="title2"> Nina Collection</h3>
+          <h4 className="subtitle"> Designer & Pattern Maker </h4>
+        </div>
+
+      </div>
+
 
   </Link>
 

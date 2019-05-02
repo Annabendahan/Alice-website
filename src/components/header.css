@@ -84,3 +84,19 @@ letter-spacing: .1rem;
   }
 }
 
+
+.choice{
+  width: 110px;
+  font-family: newMedia;
+  background: white;
+  margin-left: 80%;
+
+}
+
+.choice a{
+  text-decoration: none;
+  color: black;
+  letter-spacing: .1rem;
+  font-size: .7rem;
+}
+
