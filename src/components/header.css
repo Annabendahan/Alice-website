@@ -1,5 +1,5 @@
 .tabs-container{
-font-family: newMedia;
+font-family: 'Metrophobic', sans-serif;
 padding: 0rem 1.0875rem;
 display: flex;
 width: 100%;
@@ -13,7 +13,7 @@ letter-spacing: .1rem;
 .tabs-container h1{
   font-size: 1rem;
   margin-top: 20px;
-  font-family: newMedia;
+ font-family: 'Metrophobic', sans-serif;
 }
 
 
@@ -87,7 +87,7 @@ letter-spacing: .1rem;
 
 .choice{
   width: 110px;
-  font-family: newMedia;
+  font-family: 'Metrophobic', sans-serif;
   background: white;
   margin-left: 80%;
 

@@ -24,7 +24,7 @@ video{
 
 .titles{
   position: absolute;
-  font-family: newMedia;
+  font-family: 'Metrophobic', sans-serif;
 top: 12%;
 left: 3%;
 width: 30%;
@@ -45,7 +45,7 @@ text-decoration: none;
    letter-spacing: 0.1em;
   color:  #2D3036;
    font-weight: 300;
-   font-family: newMedia;
+   font-family: 'Metrophobic', sans-serif;
    font-size: .8rem;
    margin-top: 60px;
    margin-left: 15px;
@@ -64,7 +64,8 @@ text-decoration: none;
    font-weight: 100;
    font-size: .9rem;
    width: 380px;
-   font-family: newMedia;
+
+   font-family: 'Metrophobic', sans-serif;
 }
 
 
@@ -78,7 +79,7 @@ text-decoration: none;
   font-weight: 300;
   color: white;
   font-size: .8rem;
- font-family: newMedia;
+font-family: 'Metrophobic', sans-serif;
   text-align: center;
   letter-spacing: 0.1em;
 

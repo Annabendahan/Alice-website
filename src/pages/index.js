@@ -76,19 +76,6 @@ componentDidMount() {
 
 
 
-     <div style={{
-      background:`transparent`,
-      border: `7px dashed #FFD100`,
-      marginTop: `-660px`,
-      strokeDasharray: `4`,
-      width: `800px`,
-      marginLeft: `180px`,
-      opacity: 1,
-
-      height: `500px`,
-      transform: this.state.mount? `translateX(27%)` : `translateX(100%)`,
-      transition: ` all 2s ease-out`
-    }}></div>
 
 
 

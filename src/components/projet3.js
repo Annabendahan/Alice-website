@@ -37,7 +37,7 @@ render() {
     <img  src={pic1} className="pic3" alt="fireSpot" />
     <div className="voirP">  <span className="arrow"> <img  src={pic2} className="picShow" alt="fireSpot" /> </span> </div>
     </div>
-          <h3 className="title3"> Banlieue x projet</h3>
+          <h3 className="title3"> Banlieue X</h3>
           <h4 className="subtitle"> Designer & Pattern Maker </h4>
         </div>
 

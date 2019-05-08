@@ -63,7 +63,7 @@ background:yellow;
 
 
 .projet{
-  font-family: newMedia;
+ font-family: 'Metrophobic', sans-serif;
   position: absolute;
   display: flex;
   align-items: center;
@@ -75,12 +75,12 @@ background:yellow;
 }
 
 .title{
-  font-family: newMedia;
+  font-family: 'Metrophobic', sans-serif;
   position: absolute;
   padding: 20px 0px;
   transform: rotate(-90deg);
-  top: 80px;
-  left: -180px;
+  top: 85px;
+  left: -155px;
   color:  #2D3036;
   background:white;
   font-weight: 600;
@@ -88,49 +88,49 @@ background:yellow;
 
 
 .title2{
-  font-family: newMedia;
+  font-family: 'Metrophobic', sans-serif;
   position: absolute;
   padding: 20px 10px;
   transform: rotate(-90deg);
- top: 80px;
-   left: -170px;
+ top: 95px;
+   left: -155px;
  color:  #2D3036;
-  background:white;
+
   font-weight: 600;
 }
 
 .title3{
-  font-family: newMedia;
+  font-family: 'Metrophobic', sans-serif;
   position: absolute;
   padding: 20px 0px;
   transform: rotate(-90deg);
-  top: 80px;
-   left: -180px;
+  top: 120px;
+   left: -120px;
   color:  #2D3036;
-  background:white;
+
   font-weight: 600;
 }
 .title4{
-  font-family: newMedia;
+  font-family: 'Metrophobic', sans-serif;
   position: absolute;
   padding: 20px 0px;
   transform: rotate(-90deg);
-  top: 80px;
-   left: -170px;
+  top: 98px;
+   left: -140px;
   color:  #2D3036;
-  background:white;
+
   font-weight: 600;
 }
 
 
 .subtitle{
-  font-family: newMedia;
+  font-family: 'Metrophobic', sans-serif;
   position: absolute;
   transform: rotate(-90deg);
-  top: 80px;
+  top: 100px;
   left: -135px;
   color:  #2D3036;
-  background:white;
+
   font-weight: 300;
 }
 img{
@@ -148,35 +148,26 @@ background: transparent;
       transition: all 3s ease-out
 }
 
-.projets:hover  .picture2{
-transform: translate(-10px, -10px);
-  transition: all .5s ease-out
 
-}
 .picture2{
 
 background: transparent;
       position: relative;
 
-      transform: translate(-20px, -20px);
+      transform: translate(0px, 0px);
       z-index: 10;
       transition: all 3s ease-out;
 
 }
 
-.projets:hover  .picture3{
 
-transform: translate(10px, 10px);
-  transition: all .5s ease-out
-
-}
 
 .picture3{
 
 background: transparent;
       position: relative;
 
-      transform: translate(20px, 20px);
+      transform: translate(0px, 0px);
       z-index: 10;
       transition: all 3s ease-out;
 
