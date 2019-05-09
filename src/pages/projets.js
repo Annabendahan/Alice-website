@@ -120,9 +120,9 @@ console.log(projet)
  <div style={{
       background:`#FFFBC6`,
       width: `100%`,
-      height: `400px`,
+      height: `600px`,
       transform: this.state.mount? `translateY(-87vh)` : `translateY(-10vh)`,
-      transition: ` all 2s ease-out`
+      transition: ` all .1s ease-out`
     }}></div>
 
 
