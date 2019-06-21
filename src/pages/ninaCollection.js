@@ -28,51 +28,19 @@ render() {
 
 
   return(
-<div className="background-pr">
+<div className="background">
     <Layout>
-
+    <div className="projets">
+       <img  src={pic1} className="pic1" alt="fireSpot" />
+    </div>
 
     <div style={{
-      background:`#FFFBC6`,
-      marginTop: `-20vh`,
-      marginBottom: `0px`,
-
-      height: `120vh`,
-      transform: this.state.mount? `translateX(50%)` : `translateX(100%)`,
-      transition: ` all 2s ease-out`
-    }}></div>
-
-            <div style={{
-
-            transition: ` all 2s ease-out`,
-            width: this.state.mount? `370px`: `350px`,
-            position: `relative`,
-            top: `-640px`,
-            marginLeft:`25px`,
-            left: this.state.mount? '60%' : '40%',
-            zIndex: 30
-          }}>
-          <Parallax className="" y={[-15,0]} tagOuter="figure">
-            <img  src={pic1} className="picShow" alt="fireSpot" />
-            </Parallax>
-            </div>
-
-
-
-      <div style={{
-        background: `transparent`,
-        padding: `80px 5%`,
-         transform: this.state.mount? `translateY(-1250px)` : `translateY(-500px)`,
-         transition: ` all 2s ease-out`,
-         position: `relative`,
-            zIndex: 5
-      }}>
-
-      <div style={{
-          borderLeft: `15px solid rgba(250, 238, 89, .31)`,
-          padding: `0px 20px`,
-          marginBottom: `150px`
-      }}>
+      transform: this.state.mount? `translateY(-300px)`: `translateY(0px)`,
+        transition: ` all 1s ease-out`,
+      background: `white`,
+      padding: `150px 100px`,
+      Zindex: `1`
+    }}>
       <h3 className="Year"> 2018 </h3>
       <h2 className="PTitle"> NINA COLLECTION </h2>
 
@@ -85,19 +53,21 @@ render() {
        <p> <strong className="strong"> Model - </strong> Nina Steimel </p>
        <p> <strong className="strong"> Make up - </strong>  Caroline Madison</p>
         </div>
-       </div>
+
 
       <div style={{
         marginTop: `300px`}} className="pics">
         <img  src={pic2} className="picDisplay" alt="fireSpot" />
        <img  src={pic3} className="picDisplay" alt="fireSpot" />
-      </div>
+
 
 
        <div className="nextP">
       <Link to='/banlieueXprojet/'>
       <img  src={pic10} className="picNext" alt="fireSpot" />
 </Link>
+      </div>
+
       </div>
 
 

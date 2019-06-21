@@ -50,7 +50,7 @@ render(){
 
 
     <div style={{
-      background:`#FFFBC6`,
+      background:`#111E37`,
       width: `100%`,
       height: `400px`,
       transform: this.state.mount? `translateY(-20vh)` : `translateY(-80vh)`,
@@ -88,7 +88,7 @@ render(){
       </div>
 
       <div style={{
-      background: `#263654`,
+      background: `#111E37`,
       position: `relative`,
       zIndex: `50`,
       width: `100%`,

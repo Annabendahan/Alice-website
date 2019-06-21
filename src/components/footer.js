@@ -27,7 +27,7 @@ render() {
 <div className="copy">
 
   <p> © ALICE THONNIER 2019 - ALL RIGHT RESERVED - WEBSITE BY
-  <a href="http://annabdh.fr" > ANNABDH </a> </p>
+  <a href="http://annabdh.com" > ANNABDH </a> </p>
 </div>
 
 
@@ -37,7 +37,7 @@ render() {
               < FaInstagram />
               </a>
 
-  <a className="insta" target="_blank"  href="https://www.instagram.com/alice_thonnier/?hl=fr">
+  <a className="insta" target="_blank"  href="https://www.linkedin.com/in/alice-thonnier-815247134/?originalSubdomain=fr">
               < FaLinkedinIn />
               </a>
 

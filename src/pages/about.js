@@ -27,18 +27,20 @@ render(){
 
     <div className="background">
       <Layout>
+
+      <div className="box">
           <div className="left">
 
             <svg className="LOGOabout" width="213" height="181" viewBox="0 0 307 260" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect x="20" y="77" width="18" height="89" fill="#2D3036"/>
-<path d="M48.5 77V93H93V114.5H48.5V165.5H109V150H65.5V129H109V77H48.5Z" fill="#2D3036"/>
-<path d="M121.5 125V108.5H137.5V125H121.5Z" fill="#2D3036"/>
-<path d="M137.5 150H121.5V165.5H137.5V150Z" fill="#2D3036"/>
-<path d="M210 77H151V129H194V150H151V165.5H210V114.5H167.5V93H210V77Z" fill="#2D3036"/>
-<line x1="285" y1="84.5" x2="225" y2="84.5" stroke="#2D3036" stroke-width="15"/>
-<line x1="285" y1="156.5" x2="225" y2="156.5" stroke="#2D3036" stroke-width="15"/>
-<line x1="277.629" y1="91.0161" x2="277.5" y2="151.016" stroke="#2D3036" stroke-width="15"/>
-<line x1="232.629" y1="91.0161" x2="232.5" y2="151.016" stroke="#2D3036" stroke-width="15"/>
+<rect x="20" y="77" width="18" height="89" fill="#C8C8C8"/>
+<path d="M48.5 77V93H93V114.5H48.5V165.5H109V150H65.5V129H109V77H48.5Z" fill="#C8C8C8"/>
+<path d="M121.5 125V108.5H137.5V125H121.5Z" fill="#C8C8C8"/>
+<path d="M137.5 150H121.5V165.5H137.5V150Z" fill="#C8C8C8"/>
+<path d="M210 77H151V129H194V150H151V165.5H210V114.5H167.5V93H210V77Z" fill="#C8C8C8"/>
+<line x1="285" y1="84.5" x2="225" y2="84.5" stroke="#C8C8C8" stroke-width="15"/>
+<line x1="285" y1="156.5" x2="225" y2="156.5" stroke="#C8C8C8" stroke-width="15"/>
+<line x1="277.629" y1="91.0161" x2="277.5" y2="151.016" stroke="#C8C8C8" stroke-width="15"/>
+<line x1="232.629" y1="91.0161" x2="232.5" y2="151.016" stroke="#C8C8C8" stroke-width="15"/>
 </svg>
 
 
@@ -50,19 +52,11 @@ A la suite de son diplôme Alice effectue un stage  de modélisme chez Balzac Pa
 
           </div>
 
-          <div style={{
-            background: `#FFFBC6`,
 
-          height: `2000px`,
-          marginTop: `-800px`,
-          width: `200%`,
-          transform: this.state.mount? `translateX(25%)` : `translateX(-50%)`,
-          transition: ` all 2s ease-out`,
-          }}>
 
-           <Parallax className="" y={[-50,50]} tagOuter="figure">
+          <div className="right">
           <img  src={pic1} className="picAbout" alt="fireSpot" />
-          </Parallax>
+          </div>
 
           </div>
 

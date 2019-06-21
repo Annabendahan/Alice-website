@@ -43,7 +43,7 @@ text-decoration: none;
 .titles h2{
 
    letter-spacing: 0.1em;
-  color:  #2D3036;
+  color:  white;
    font-weight: 300;
    font-family: 'Metrophobic', sans-serif;
    font-size: .8rem;
@@ -72,12 +72,12 @@ text-decoration: none;
 .voir{
   margin-left: 19%;
   position: relative;
-  background:#2D3036 ;
-  padding: 14px 12px;
+  background:#C8C8C8 ;
+  padding: 12px 12px;
   padding-top: 16px;
   width: 150px;
   font-weight: 300;
-  color: white;
+  color: #C8C8C8;
   font-size: .8rem;
 font-family: 'Metrophobic', sans-serif;
   text-align: center;
@@ -85,9 +85,7 @@ font-family: 'Metrophobic', sans-serif;
 
 }
 
-.voir a{
-  color: white;
-}
+
 
 .voir:hover {
 

@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import '../components/projets.css'
-import pic1 from '../images/metro (20 sur 7).jpg';
+import pic1 from '../images/image 5.png';
 import pic2 from '../images/disc1.png';
 
 class  Projet1 extends Component {

@@ -27,54 +27,19 @@ render() {
 
 
   return(
-<div className="background-pr">
+ <div className="background">
     <Layout>
-<div style={{
-      background:`#FFFBC6`,
-      marginTop: `-20vh`,
-      marginBottom: `0px`,
+    <div className="projets">
+       <img  src={pic1} className="pic1" alt="fireSpot" />
+    </div>
 
-      height: `120vh`,
-      transform: this.state.mount? `translateX(50%)` : `translateX(100%)`,
-      transition: ` all 2s ease-out`
-    }}></div>
-
-
-
-
-
-
-            <div style={{
-
-            transition: ` all 2s ease-out`,
-            width: this.state.mount? `370px`: `350px`,
-            position: `relative`,
-            top: `-640px`,
-            marginLeft:`25px`,
-            left: this.state.mount? '60%' : '40%',
-            zIndex: 30
-          }}>
-          <Parallax className="" y={[-20,10]} tagOuter="figure">
-            <img  src={pic1} className="pic4" alt="fireSpot" />
-          </Parallax>
-            </div>
-
-
-
-      <div style={{
-        background: `transparent`,
-        padding: `80px 5%`,
-         transform: this.state.mount? `translateY(-1300px)` : `translateY(-500px)`,
-         transition: ` all 2s ease-out`,
-         position: `relative`,
-            zIndex: 5
-      }}>
-
-      <div style={{
-          borderLeft: `15px solid rgba(250, 238, 89, .31)`,
-          padding: `0px 20px`,
-          marginBottom: `150px`
-      }}>
+    <div style={{
+      transform: this.state.mount? `translateY(-300px)`: `translateY(0px)`,
+        transition: ` all 1s ease-out`,
+      background: `white`,
+      padding: `150px 100px`,
+      Zindex: `1`
+    }}>
 
       <h3 className="Year"> 2018 </h3>
       <h2 className="PTitle"> KNICKS QUEENS </h2>
@@ -90,7 +55,7 @@ Le sweat en résille fait écho aux filets et aux grillages des terrains de bask
        <p> <strong className="strong"> Model - </strong> Athéna Lisnyj </p>
        <p> <strong className="strong"> Place - </strong> Pigalle Basketball </p>
        </div>
-       </div>
+
 
 
        <img  src={pic3} className="picDisplayV" alt="fireSpot" />
@@ -99,7 +64,6 @@ Le sweat en résille fait écho aux filets et aux grillages des terrains de bask
        <img  src={pic6} className="picDisplayV" alt="fireSpot" />
 
 
-      </div>
 
 
 <div className="nextP">
@@ -107,6 +71,7 @@ Le sweat en résille fait écho aux filets et aux grillages des terrains de bask
       <img  src={pic10} className="picNext" alt="fireSpot" />
 </Link>
       </div>
+       </div>
 
 
 

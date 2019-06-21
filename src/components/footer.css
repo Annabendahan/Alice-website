@@ -7,6 +7,7 @@ display: flex;
   margin-top: 200px;
   width: 100%;
   justify-content: space-between;
+  color: #C8C8C8;
 }
 
 
@@ -20,5 +21,14 @@ margin: 5px;
 .insta{
   font-size: .3rem;
   width: 2px;
-  color: red;
+  color: white;
 }
+
+
+.social a{
+  color: #C8C8C8;
+}
+
+
+.social a:hover{
+color: yellow;}

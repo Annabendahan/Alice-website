@@ -19,7 +19,7 @@ const Header = ({ siteTitle, siteDescription }) => (
         <Link
           to="/"
           style={{
-            color: `#2D3036`,
+            color: `white`,
             textDecoration: `none`,
             fontSize: `1rem`,
           }}
@@ -34,13 +34,13 @@ const Header = ({ siteTitle, siteDescription }) => (
           to="/projets/"
           style={{
             padding: `0px 30px`,
-            color: `#2D3036`,
+            color: `white`,
             fontWeight: `400`,
             fontSize: `.7rem`,
             textDecoration: `none`,
           }}
         > <span className="proj"> PROJECTS </span> <svg  className="svg1" width="31" height="30" viewBox="0 0 71 70" fill="none" xmlns="http://www.w3.org/2000/svg">
-<line x1="9" y1="33.5" x2="62" y2="33.5" stroke="#263654" stroke-width="2"/>
+<line x1="9" y1="33.5" x2="62" y2="33.5" stroke="white" stroke-width="2"/>
 </svg>
  </Link>
 
@@ -49,12 +49,12 @@ const Header = ({ siteTitle, siteDescription }) => (
           style={{
             padding: `0px 30px`,
             fontWeight: `400`,
-            color: `#2D3036`,
+            color: `white`,
             fontSize: `.7rem`,
             textDecoration: `none`,
           }}
         > <span className="md"> MOODBOARD </span>  <svg className="svg2" width="31" height="30" viewBox="0 0 71 70" fill="none" xmlns="http://www.w3.org/2000/svg">
-<line x1="9" y1="33.5" x2="62" y2="33.5" stroke="#263654" stroke-width="2"/>
+<line x1="9" y1="33.5" x2="62" y2="33.5" stroke="white" stroke-width="2"/>
 </svg>
 </Link>
 
@@ -63,12 +63,12 @@ const Header = ({ siteTitle, siteDescription }) => (
           style={{
             padding: `0px 30px`,
             fontWeight: `400`,
-            color: `#2D3036`,
+            color: `white`,
             fontSize: `.7rem`,
             textDecoration: `none`,
           }}
         > <span className="ab"> ABOUT </span>  <svg className="svg3" width="31" height="30" viewBox="0 0 71 70" fill="none" xmlns="http://www.w3.org/2000/svg">
-<line x1="9" y1="33.5" x2="62" y2="33.5" stroke="#263654" stroke-width="2"/>
+<line x1="9" y1="33.5" x2="62" y2="33.5" stroke="white" stroke-width="2"/>
 </svg>
 </Link>
 
