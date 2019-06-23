@@ -1,5 +1,6 @@
 .left{
   padding: 1% 5%;
+  flex: 90%;
 
   font-family: newMedia;
   letter-spacing: 0.1em;
@@ -46,6 +47,8 @@
 }
 
 
+.right{
+flex:40%;}
 
 .insta{
   font-size: 1.5rem;

@@ -4,7 +4,7 @@ import { FaInstagram } from 'react-icons/fa';
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import '../components/about.css'
-import pic1 from '../images/metro (8 sur 13).jpg';
+import pic1 from '../images/metroqual.png';
 import { Parallax } from 'react-scroll-parallax';
 
 

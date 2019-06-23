@@ -8,7 +8,7 @@ import pic1 from '../images/metro (20 sur 7).jpg';
 import pic2 from '../images/metro (10 sur 13).jpg';
 import pic3 from '../images/metro (10 sur 13).jpg';
 import pic4 from '../images/metro (18 sur 7).jpg';
-import pic5 from '../images/metro (20 sur 7).jpg';
+import pic5 from '../images/image 5.png';
 import pic6 from '../images/metro (6 sur 13).jpg';
 import pic7 from '../images/metro (8 sur 13).jpg';
 import pic8 from '../images/FB_IMG_1530209047707.jpg';
